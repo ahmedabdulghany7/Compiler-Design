@@ -1,0 +1,8 @@
+read x;
+if 0<x 
+    fact=1;
+    repeat
+        x=x+3;
+    until x=0;
+    write fact
+end
